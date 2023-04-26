@@ -13,8 +13,7 @@ const dogs = [
         bio: "Yup, that's my owner. U can meet him if you want",
         hasBeenSwiped: false,
         hasBeenLiked: false
-    },
-    {
+    },{
         name: "Teddy",
         avatar: "images/dog-teddy.jpg",
         age: 30,

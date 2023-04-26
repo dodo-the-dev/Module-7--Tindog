@@ -1,0 +1,68 @@
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  max-width: 550px;
+  background-color: rgba(245, 245, 245, 0.911);
+}
+
+/* Header section: */
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.header img {
+  height: 50px;
+}
+
+/* Profile Section */
+
+.profile-section{
+  position: relative;
+}
+
+.profile-picture{
+  width: 100%;
+  border-radius: 20px;
+  padding: 0 5px;
+}
+
+.profile-comments{
+  position:absolute;
+  top: 675px;
+  left: 20px;
+  color: white;
+}
+
+.dog-name{
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.dog-bio {
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+/* Interaction Section */
+
+.interaction {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  gap: 50px;
+  margin: 10px 5px;
+  padding: 25px 0;
+}
+
+.wrapper {
+  background-color: white;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px whitesmoke ;
+}
