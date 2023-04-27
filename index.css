@@ -26,14 +26,14 @@ main {
 }
 
 .profile-picture{
-  width: 100%;
+  width: 540px;
   border-radius: 20px;
-  padding: 0 5px;
+  margin: 0 2px;
 }
 
 .profile-comments{
   position:absolute;
-  top: 675px;
+  top: 670px;
   left: 20px;
   color: white;
 }
@@ -49,12 +49,19 @@ main {
   margin: 5px 0;
 }
 
+.badge{
+  width: 230px;
+  position: absolute;
+  top: 55px;
+  left: 25px;
+  transform: rotate(-30deg);
+}
+
 /* Interaction Section */
 
 .interaction {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
   gap: 50px;
   margin: 10px 5px;
   padding: 25px 0;
@@ -64,5 +71,14 @@ main {
   background-color: white;
   padding: 20px;
   border-radius: 50%;
-  box-shadow: 5px 5px 5px whitesmoke ;
+  box-shadow: 5px 5px 20px silver ;
 }
+
+#like-btn:hover, #like-btn:focus, #like-btn:active {
+  background-color: #dbfff4;
+}
+
+#reject-btn:hover, #reject-btn:focus, #reject-btn:active {
+  background-color: #ffe7ef;
+}
+

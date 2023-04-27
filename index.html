@@ -20,15 +20,23 @@
         <img src="/images/icon-chat.png" alt="chat icon" />
       </sectoion>
       <section class="profile-section">
-        <img src="/images/dog-teddy.jpg" alt="Teddy" class="profile-picture" />
+        <div class="profile-picture">
+          <img src="/images/dog-teddy.jpg" alt="Teddy" class="profile-picture" />
+          <img src="/images/badge-like.png" alt="like badge" class="badge" hidden>
+          <img src="/images/badge-nope.png" alt="nope badge" class="badge" hidden>
+        </div>
         <div class="profile-comments">
           <p class="dog-name">Teddy, 30</p>
           <p class="dog-bio">How You Doin?</p>
         </div>
       </section>
       <section class="interaction">
-        <div class="wrapper"><img src="/images/icon-cross.png" alt="reject button" /></div>
-        <div class="wrapper"><img src="/images/icon-heart.png" alt="like button" /></div>
+        <div class="wrapper" id="reject-btn">
+          <img src="/images/icon-cross.png" alt="reject button" />
+        </div>
+        <div class="wrapper" id="like-btn">
+          <img src="/images/icon-heart.png" alt="like button" />
+        </div>
       </section>
     </main>
     <script src="/index.js" type="module"></script>
