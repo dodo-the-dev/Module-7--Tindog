@@ -5,12 +5,12 @@ class Dog {
   }
 
   getDogHtml() {
-    const {name, avatar, age, bio} = this
+    const {name, avatar, age, bio, hasBeenLiked, hasBeenSwiped} = this
     return `
     <div class="profile-picture">
       <img src="${avatar}" alt="${name}" class="profile-picture" />
-      <img src="/images/badge-like.png" alt="like badge" class="badge" hidden>
-      <img src="/images/badge-nope.png" alt="nope badge" class="badge" hidden>
+      <img src="/images/badge-like.png" alt="like badge" class="badge" id="like" hidden>
+      <img src="/images/badge-nope.png" alt="nope badge" class="badge" id="reject" hidden>
     </div>
     <div class="profile-comments">
       <p class="dog-name">${name}, ${age}</p>
